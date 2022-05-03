@@ -1,5 +1,24 @@
 .container {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.h2 { 
+  color: #0070f3;
+  flex: 0.25;
+}
+
+.input {
+  color:blueviolet;
+  display: flexbox;
+  flex: 0.20;
 }
 
 .main {
@@ -79,7 +98,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #282c34;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
